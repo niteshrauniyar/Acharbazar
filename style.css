@@ -16,6 +16,10 @@
     height: 100%;
     width: 100%;
   }
+  #navbar-content-bottom a:hover {
+    color: #FFC851;
+    text-decoration: underline ;
+  }
   #navbar {
     height: 300px;
     width: 100%;
@@ -326,8 +330,42 @@ background-size: cover;
  
   
   #page4 {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1500px;
+    gap: 0px;
   } 
+  #p4-left-bottom , #p4-left-top , #p4-right-top , #p4-right-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  #page4-left , #page4-right {
+    gap: 0px;
+
+  }
+  #p4-left-bottom , #p4-right-bottom {
+  margin-right: 0px;
+  }
+
+  
+
+  #p4-left-top-text {
+    width: 100vw;
+    padding: 20px;
+  }
+  #p4-left-top-text h1 , #p4-left-bottom-text h1 , #p4-right-top-text h1 , #p4-right-bottom-text h1 {
+    font-size: 5vh;
+
+  }
+  #p4-left-top-text h2 , #p4-left-bottom-text h2 , #p4-right-top-text h2 , #p4-right-bottom-text h2 {
+    font-size: 3vh;
+
+  }
   #page1::before {
     height: 60px;
     top: 235px;
@@ -421,7 +459,7 @@ padding-left: 20px;
  #page3 {
   height: 1900px;
  }
- #page3-bottom h1 {
+ #page3-bottom h1  {
   font-size: 5vh;
  }
  #p3-1 , #p3-2 ,#p3-3 ,#p3-4 {
