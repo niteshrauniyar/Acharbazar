@@ -1,0 +1,444 @@
+@font-face {
+    font-family: medium;
+    src: url(./Gilroy-Medium.e7e7c091.ttf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+    box-sizing: border-box;
+    color:black;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  #navbar {
+    height: 300px;
+    width: 100%;
+    background-color: #121618;
+  }
+  #navbar-content {
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+  }
+ #navbar-content-bottom {
+    display: flex;
+    gap: 50px;
+    letter-spacing: 2px;
+    
+ }
+ #navbar-content-bottom a {
+    color: aliceblue;
+    text-decoration: none;
+
+ }
+  #navbar-content-top img {
+    width: 300px;
+    height: 300px;
+    margin-top: -30px;
+  }
+  #navbar-content-top {
+    height: 200px;
+   
+  }
+
+  #page1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Black\ Minimalist\ Delicious\ Burger\ Facebook\ Post\ \(1700\ x\ 1000\ px\)\ \(1\).png);
+}
+#page1::before {
+  content: "";
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  height: 100px;
+  background-size: cover;
+  transform: rotate(-180deg);
+  background-image: url(https://abhishekjha.me/rip.f6d7c4dd.svg);
+  
+}
+#page1-right img {
+  height: 36vw;
+margin-top: 10vw;
+
+
+}
+#page1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#page1-left {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  margin-top: 12vw;
+  margin-left: 7vw;
+}
+#line {
+  width: 80%;
+  height: 2px;
+  margin-top: 1vw;
+ background-color: white;
+}
+#page1-left h1 {
+font-size: 5vw;
+color: white;
+font-family: medium;
+font-weight: 300;
+}
+#page1-left h3 {
+  margin-top: 1vw;
+  font-size: 2vw;
+  color: white;
+font-family: medium;
+font-weight: 300;
+}
+#button button {
+font-size: 1.4vw;
+padding: 10px 30px 10px 30px;
+border: 1px solid rgb(222, 153, 14);
+background-color: transparent;
+color: rgb(222, 153, 14) ;
+font-family: medium;
+box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+#button {
+  margin-top: 1.5vw;
+  
+}
+#button button:hover {
+scale: 1.02;
+
+}
+#page2 {
+  height: 50vh;
+  width: 100%;
+  background-color: #FFC851;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  gap:60px
+}
+#page2-1 ,#page2-2 , #page2-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#page2-1 i , #page2-2 i , #page2-3 i {
+  font-size: 5vw;
+  margin-bottom: 30px;
+}
+#page2-1 h1 , #page2-2 h1 , #page2-3 h1{
+  font-family: medium;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+#page2-1 p , #page2-2 p , #page2-3 p {
+  text-align: center;
+}
+#page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: #121618;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 125px;
+}
+#page2::after {
+  content: "";
+  position: absolute;
+top: 1330px;
+  width: 100%;
+  height: 100px;
+  background-size: cover;
+  transform: rotate(-180deg);
+  background-image: url(https://abhishekjha.me/rip.f6d7c4dd.svg);
+  
+}
+#page3-top h1 {
+  color: white;
+  margin-top: 100px;
+  font-family: medium;
+  font-weight: 200;
+}
+#page3-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 0 70px 70px 70px;
+}
+#p3-1 img , #p3-2 img,#p3-3 img,#p3-4 img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 30px;
+}
+#p3-1 , #p3-2 ,#p3-3 ,#p3-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#p3-1 h1 , #p3-2 h1,#p3-3 h1,#p3-4 h1 {
+  color: white;
+  font-family: medium;
+  font-weight: 200;
+  margin-bottom: 25px;
+  font-size: 1.4vw;
+}
+#p3-1 h2 , #p3-2 h2,#p3-3 h2,#p3-4 h2 {
+  color: white;
+  font-family: medium;
+  font-weight: 200;
+  margin-top: 30px;
+  
+
+}
+#p3-1 p , #p3-2 p,#p3-3 p,#p3-4 p {
+  color: white;
+  font-family: medium;
+  font-weight: 200;
+  text-align: center;
+}
+#page4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#121618;
+  gap: 100px;
+  height: 100vh;
+
+  
+}
+#page4 img {
+  height: 200px;
+  width: 300px;
+}
+#page4 h1 {
+  font-size: 2.5vw;
+  font-family: medium;
+  color: white;
+  font-weight: 200;
+}
+#page4 h2 {
+  font-size: 1.6vw;
+}
+#page4-left , #page4-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+#p4-left-top , #p4-left-bottom , #p4-right-top , #p4-right-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  text-align: center;
+ 
+}
+#page4 h2 {
+  margin-top: 20px;
+  color: aliceblue;
+  font-family: medium;
+  font-weight: 200;
+}
+#p4-left-bottom-img , #p4-left-top-img ,#p4-right-bottom-img,#p4-right-top-img{
+  height: 200px;
+  width: 300px;
+  display: flex;
+  text-align: left;
+
+}
+#p4-left-bottom , #p4-right-bottom {
+  margin-right: 65px;
+}
+#page5{
+  height: 50vh;
+  width: 100%;
+ background-color: #FFC851;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 100px;
+}
+#page5-topic h1 {
+  font-size: 4vw;
+
+font-family: medium;
+
+}
+#social-icon i{
+  font-size: 3vw;
+
+}
+#social-icon {
+  display: flex;
+  gap: 50px;
+}
+@media screen and (max-width: 992px) {
+
+  #navbar-content-bottom {
+  position: absolute;
+  top: 180px;
+  gap: 20px;
+  }
+  #navbar {
+    width: 100%;
+    height: 250PX;
+ 
+  }
+#navbar-content-top img {
+  padding-bottom: 30px;
+}
+  #page1 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+background-image: url(./Black\ Minimalist\ Delicious\ Burger\ Facebook\ Post\ \(600\ x\ 1200\ px\).png);
+height: 700px;
+width: 100vw;
+
+background-attachment: fixed;
+background-size: cover;
+
+
+  }
+ 
+  
+  #page4 {
+    display: none;
+  } 
+  #page1::before {
+    height: 60px;
+    top: 235px;
+    width: 100%;
+  }
+#page1-right {
+  width: 100vw;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page1-right img {
+  height: 250px;
+  width: 350px;
+  display: flex;
+  
+padding-left: 20px;
+  margin-bottom: -100px;
+}
+/* #page1-left {
+  width: 100vw;
+  padding: 20px;
+
+  margin-top: -20px;
+} */
+#page1-left h1 {
+  font-size: 5vh;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 800;
+}
+  #page1-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  padding-right: 6vw;
+  }
+  #page1-left h3 {
+    font-size: 2.5vh;
+    font-weight: 500;
+  }
+
+#line {
+  margin-top: 30px;
+}
+#button {
+  font-size: 3vh;
+}
+#button button {
+  font-size: 3vh;
+  margin-top: 20px;
+} 
+
+ #page2 {
+  height: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+ }
+ #page2-1 i ,#page2-2 i , #page2-3 i{
+  font-size: 15vh;
+  
+ }
+ #page2-1 , #page2-2 , #page2-3 {
+  text-align: center;
+  width: 100vw;
+  padding: 20px;
+
+ }
+ #page2-1 h1 , #page2-2 h1 , #page2-3 h1 {
+  font-size: 5vh;
+ }
+ #page2::after {
+  top: 2300px;
+  height: 75px;
+ }
+ #page3-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  gap: 50px;
+  margin-top: -60px;
+ }
+ #page3 {
+  height: 1900px;
+ }
+ #page3-bottom h1 {
+  font-size: 5vh;
+ }
+ #p3-1 , #p3-2 ,#p3-3 ,#p3-4 {
+ width: 100vw;
+ padding: 20px;
+
+  text-align: center;
+ }
+ #page5 {
+  height: 200px;
+  gap: 40px;
+ }
+ #page5-topic h1 {
+  font-size: 5vh;
+ }
+ #social-icon i {
+  font-size: 4vh;
+ }
+ 
+}
